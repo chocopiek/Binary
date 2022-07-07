@@ -1,0 +1,43 @@
+import random
+
+
+class player:
+    save = []
+    inv = [[], [], [], [], [], [], [], [], [], []]
+    name = ''
+
+    def __init__(self, name):
+        self.name = name
+
+def __init__(self, name):
+    self.name = name
+
+def craftpackbag():
+    i = 100
+    red = 0
+    blue = 0
+    light_blue = 0
+    black = 0
+    yellow = 0
+    while(i > 0):
+        if(red < 20):
+            packbag.append('red')
+            red = red + 1
+        if(blue < 20):
+            packbag.append('blue')
+            blue = blue + 1
+        if(light_blue < 20):
+            packbag.append('light_blue')
+            light_blue = light_blue + 1
+        if(black < 20):
+            packbag.append('black')
+            black = black + 1
+        if(yellow < 20):
+            packbag.append('yellow')
+            yellow = yellow + 1
+      
+craftpackbag()
+field = [[], [], [], [], [], [], [], [], []]
+packbag = []
+random.shuffle(packbag)
+print(packbag)
